@@ -5,7 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up</title>
     <link href="undertale.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
 </head>
+
 <body class="ut-wrapper">
+    <div id="background">
+        <div id="header">
+            <img src="images/Annoying_Dog_sprite.webp" id="logo">
+            <div class="ut-stats ut-heading">DOGGO</div>
+        </div>
+    </div>
+
+    <div id="main" class="ut-menu">
+        <p class="ut-dialogue">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+        <p class="ut-dialogue">Sign up now to get started. You know you want to.</p>
+
+        <form>
+            <p class="ut-heading">Let's do this!</p>
+            <fieldset>
+                <label for="name">FIRST NAME</label>
+                <input type="text" id="name" name="name" required>
+            </fieldset>
+
+            <fieldset>
+                <label for="surname">LAST NAME</label>
+                <input type="text" id="surname" name="surname" required>
+            </fieldset>
+
+            <fieldset>
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email" required>
+            </fieldset>
+
+            <fieldset>
+                <label for="phone-number">PHONE NUMBER</label>
+                <input type="text" id="phone-number" name="phone-number" required>
+            </fieldset>
+
+            <fieldset>
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" name="password" required>
+            </fieldset>
+
+            <fieldset>
+                <label for="confirm-password">CONFIRM PASSWORD</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </fieldset>
+
+            <input type="submit" id="sumbit" name="submit" class="ut-button ut-action ut-link">
+        </form>
+    </div>
 </body>
 </html>

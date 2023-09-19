@@ -125,13 +125,13 @@ Font Credits:
 	/* For buttons that should resemble the UT combat options (FIGHT, ACT, ITEM, MERCY) */
 	display:inline-block;
 	text-transform:uppercase;
-	text-align:right;
 	border:0.1em solid;
-	border-color:#f68228;
+	border-color:aliceblue;
 	text-decoration:none;
 	padding:0.1em;
 	margin-top:initial;
 	margin-bottom:0.1em;
+	background-color: black;
 }
 .ut-button:link, .ut-button:visited, .ut-button:hover, .ut-button:active, .ut-button-small:link, .ut-button-small:visited, .ut-button-small:hover, .ut-button-small:active {
 	text-decoration:none;
