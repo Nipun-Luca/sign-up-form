@@ -20,8 +20,6 @@ body {
 }
 
 
-
-
 #header {
     position: relative;
     top: 150px;
@@ -60,6 +58,14 @@ fieldset{
 
 fieldset > input {
     width: 200px;
+    background-color: black;
+    color: white;
+    border-color: white;
+    box-sizing: border-box;
+}
+  
+fieldset > input:valid {
+    border-color: green;
 }
 
 #sumbit {
