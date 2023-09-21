@@ -34,10 +34,6 @@ body {
     gap: 5px;
 }
 
-#logo {
-   
-}
-
 
 /*Main*/
 #main {
@@ -55,9 +51,13 @@ fieldset{
     flex-direction: column;
     margin: 0;
 }
+fieldset input, fieldset span {
+    display: inline-block;
+    vertical-align: middle;
+}
 
 fieldset > input {
-    width: 200px;
+    width: 300px;
     background-color: black;
     color: white;
     border-color: white;
