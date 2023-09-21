@@ -1,16 +1,17 @@
 body {
-    height: 100vh;
+    height: auto;
     width: 100%;
     margin: 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 
 /*Header stripe*/
 #background {
     min-height: 100vh;
-    width: 35vw;
+    width: 35vw; /* Initially, cover the full width */
     background-image: url(images/doggo-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -19,10 +20,9 @@ body {
     overflow: hidden;
 }
 
-
 #header {
     position: relative;
-    top: 150px;
+    top: 20%;
     height: 100px;
     width: auto;
     background-color: black;
@@ -34,11 +34,24 @@ body {
     gap: 5px;
 }
 
+@media screen and (max-width: 768px) {
+    /* Adjust the width for smaller screens */
+    #background {
+        min-height: 35vh;
+        width: 100%; /* You can adjust this width as needed for smaller screens */
+    }
+
+    #header {
+        top: 30%;
+    }
+}
 
 /*Main*/
 #main {
     flex: 1;
     margin: 40px;
+    max-width: 800px; /* Set a maximum width to control the width of the content */
+    width: 100%; /* Ensure content takes full width within the maximum width */
 }
 
 form {
